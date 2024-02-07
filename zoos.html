@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Zoos</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240207123227">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+
+			<div class="header__wide">
+
+				<div class="header__container">
+
+					<button aria-label="Меню" type="button" class="menu__icon icon-menu"><span></span></button>
+
+					<a href="home.html" class="header__logo mainpage-logo">
+						<p class="mainpage-logo__text">zoo</p>
+						<p class="mainpage-logo__txt">online</p>
+					</a>
+
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link">Home</a></li>
+								<li class="menu__item"><a href="home.html#mainpage-works" class="menu__link">About</a></li>
+								<li class="menu__item"><a href="zoos.html" class="menu__link">Zoos</a></li>
+								<li class="menu__item"><a data-goto=".mainpage-map" href="" class="menu__link">Map</a></li>
+								<li class="menu__item"><a href="home.html#mainpage-pets" class="menu__link">Pets</a></li>
+							</ul>
+						</nav>
+					</div>
+
+					<button aria-label="Темная тема" class="header__btn">
+
+						<label class="switch">
+							<input class="dark-theme-btn" type="checkbox">
+							<span class="slider"></span>
+						</label>
+
+					</button>
+
+				</div>
+			</div>
+		</header>
+		<main class="mainpage">
+
+			<section class="mainpage-zoos">
+				<div class="mainpage-zoos__wide">
+					<div class="mainpage-zoos__container">
+
+						<div class="mainpage-zoos__box">
+
+							<div class="swiper-pagination-container">
+
+								<div class="my-buttons-wrapper">
+									<button aria-label="Назад" type="button" class="swiper-button-prev swiper-button-prev_custom"></button>
+								</div>
+
+								<div class="custom-pagination"></div>
+
+								<div class="my-buttons-wrapper">
+									<button aria-label="Вперед" type="button" class="swiper-button-next swiper-button-next_custom"></button>
+								</div>
+
+							</div>
+
+							<!-- Оболочка слайдера -->
+
+							<div data-da=".mainpage-zoos__container, 992, 0" class="mainpage-zoos__slider swiper">
+
+								<h2 class="mainpage-zoos__title mainpage-title">The Beijing Zoo</h2>
+
+								<!-- Двигающееся часть слайдера -->
+								<div class="mainpage-zoos__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="mainpage-zoos__slide swiper-slide">
+
+										<div class="mainpage-zoos__body">
+
+											<div class="mainpage-zoos__video">
+												<div id="video-panda" class="video-placeholder__img-ibg">
+													<picture><source srcset="img/mainpage-zoos/preview-1.webp" type="image/webp"><img src="img/mainpage-zoos/preview-1.jpg" alt="Заглушка"></picture>
+												</div>
+											</div>
+
+											<div class="mainpage-zoos__main">
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Population:</p>
+													<p class="mainpage-zoos__txt">About 1,590 individuals</p>
+												</div>
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Habitat:</p>
+													<p class="mainpage-zoos__txt">Temperate forests high in the mountains of
+														southwest
+														China
+													</p>
+												</div>
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Diet:</p>
+													<p class="mainpage-zoos__txt">A panda's daily diet consists almost entirely of
+														the
+														leaves, stems and shoots of various bamboo species. Bamboo contains very
+														little
+														nutritional value so pandas must eat 12-38kg every day to meet their energy
+														needs.
+													</p>
+												</div>
+
+												<a class="mainpage-zoos__link mainpage-link" href="">feed</a>
+
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="mainpage-zoos__slide swiper-slide">
+
+										<div class="mainpage-zoos__body">
+
+											<div class="mainpage-zoos__video">
+												<div id="video-eagle" class="video-placeholder__img-ibg">
+													<picture><source data-srcset="img/mainpage-zoos/preview-2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/mainpage-zoos/preview-2.jpg" alt="Заглушка"></picture>
+												</div>
+											</div>
+
+											<div class="mainpage-zoos__main">
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Population:</p>
+													<p class="mainpage-zoos__txt">More than 270 pairs in 2013</p>
+												</div>
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Habitat:</p>
+													<p class="mainpage-zoos__txt">Typically nest in forested areas adjacent to large
+														bodies of water</p>
+												</div>
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Diet:</p>
+													<p class="mainpage-zoos__txt">Main live prey consists of medium sized mammals and
+														birds such as rabbits, hares, grouse and ptarmigan. The diet of coastal birds
+														includes gulls and other seabirds.
+													</p>
+												</div>
+
+												<a class="mainpage-zoos__link mainpage-link" href="">feed</a>
+
+											</div>
+
+										</div>
+
+									</div>
+
+									<div class="mainpage-zoos__slide swiper-slide">
+
+										<div class="mainpage-zoos__body">
+
+											<div class="mainpage-zoos__video">
+												<div id="video-gorilla" class="video-placeholder__img-ibg">
+													<picture><source data-srcset="img/mainpage-zoos/preview-3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/mainpage-zoos/preview-3.jpg" alt="Заглушка"></picture>
+												</div>
+											</div>
+
+											<div class="mainpage-zoos__main">
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Population:</p>
+													<p class="mainpage-zoos__txt">Over 100,000 western lowland gorillas</p>
+												</div>
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Habitat:</p>
+													<p class="mainpage-zoos__txt">Gorillas primarily inhabit tropical forest
+														habitats.Tropical forests are characterized as having little variance in
+														temperature (around 23°C) and length of daylight (around 12 hours).
+													</p>
+												</div>
+
+												<div class="mainpage-zoos__content">
+													<p class="mainpage-zoos__text">Diet:</p>
+													<p class="mainpage-zoos__txt">Gorillas stick to a mainly vegetarian diet, feeding
+														on
+														stems, bamboo shoots and fruits. Western lowland gorillas, however, also have
+														an
+														appetite for termites and ants, and break open termite nests to eat the
+														larvae.
+													</p>
+												</div>
+
+												<a class="mainpage-zoos__link mainpage-link" href="">feed</a>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</section>
+
+			<section class="mainpage-map">
+				<div class="mainpage-map__wide">
+					<div class="mainpage-map__container">
+
+						<h2 class="mainpage-map__title mainpage-title">Map</h2>
+
+						<div class="mainpage-map__body">
+							<div class="mainpage-map__image-ibg">
+								<picture><source data-srcset="img/mainpage-map/map.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="mainpage-map__image" data-src="img/mainpage-map/map.png" alt="Карта"></picture>
+							</div>
+
+							<div class="mainpage-map__flag-wrapper first-flag">
+								<div class="mainpage-map__flag">
+									<div class="mainpage-map__img-ibg">
+										<picture><source data-srcset="img/mainpage-map/1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="mainpage-map__img" data-src="img/mainpage-map/1.png" alt="Картинка"></picture>
+									</div>
+									<div class="mainpage-map__svg-ibg">
+										<img class="mainpage-map__svg" data-src="img/mainpage-map/label.svg" alt="Метка">
+									</div>
+								</div>
+							</div>
+
+							<div class="mainpage-map__flag-wrapper second-flag">
+								<div class="mainpage-map__flag">
+									<div class="mainpage-map__img-ibg">
+										<picture><source data-srcset="img/mainpage-map/2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="mainpage-map__img" data-src="img/mainpage-map/2.png" alt="Картинка"></picture>
+									</div>
+									<div class="mainpage-map__svg-ibg">
+										<img class="mainpage-map__svg" data-src="img/mainpage-map/label.svg" alt="Метка">
+									</div>
+								</div>
+							</div>
+
+							<div class="mainpage-map__flag-wrapper third-flag">
+								<div class="mainpage-map__flag">
+									<div class="mainpage-map__img-ibg">
+										<picture><source data-srcset="img/mainpage-map/3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  class="mainpage-map__img" data-src="img/mainpage-map/3.png" alt="Картинка"></picture>
+									</div>
+									<div class="mainpage-map__svg-ibg">
+										<img class="mainpage-map__svg" data-src="img/mainpage-map/label.svg" alt="Метка">
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<a class="mainpage-map__link mainpage-link" href="">
+							<div class="mainpage-link__mainpage-element mainpage-element _icon-triangle"></div>
+							<p class="mainpage-link__txt">watch online</p>
+						</a>
+
+						<a id="tippy-one" href="" class="mainpage-map__tippy tippy">
+							<div class="tippy__main">
+								<div class="tippy__img-ibg">
+									<picture><source srcset="img/mainpage-map/01.webp" type="image/webp"><img class="tippy__img" src="img/mainpage-map/01.jpg" alt="Картинка"></picture>
+								</div>
+							</div>
+							<div class="tippy__body">
+								<p class="tippy__title">West End Bald Eagle</p>
+								<p class="tippy__text"><span>Region:</span> on an island near Los Angeles</p>
+								<p class="tippy__text"><span>Population:</span> more than 270 pairs in 2013</p>
+							</div>
+						</a>
+
+						<a id="tippy-two" href="" class="mainpage-map__tippy tippy">
+							<div class="tippy__main">
+								<div class="tippy__img-ibg">
+									<picture><source srcset="img/mainpage-map/01.webp" type="image/webp"><img class="tippy__img" src="img/mainpage-map/01.jpg" alt="Картинка"></picture>
+								</div>
+							</div>
+							<div class="tippy__body">
+								<p class="tippy__title">The Beijing Zoo</p>
+								<p class="tippy__text"><span>Region:</span> Temperate forests high in the mountains of southwest
+									China</p>
+								<p class="tippy__text"><span>Population:</span> About 1,590 individuals</p>
+							</div>
+						</a>
+
+						<a id="tippy-three" href="" class="mainpage-map__tippy tippy">
+							<div class="tippy__main">
+								<div class="tippy__img-ibg">
+									<picture><source srcset="img/mainpage-map/01.webp" type="image/webp"><img class="tippy__img" src="img/mainpage-map/01.jpg" alt="Картинка"></picture>
+								</div>
+							</div>
+							<div class="tippy__body">
+								<p class="tippy__title">Gorilla Forest Corridor Cam</p>
+								<p class="tippy__text"><span>Region:</span> Gorillas primarily inhabit tropical forest
+									habitats.</p>
+								<p class="tippy__text"><span>Population:</span> Over 100,000 western lowland gorillas</p>
+							</div>
+						</a>
+
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__wide">
+				<div class="footer__container">
+
+					<div class="footer__header">
+
+						<a href="home.html" class="footer__logo mainpage-logo">
+							<p class="mainpage-logo__text">zoo</p>
+							<p class="mainpage-logo__txt">online</p>
+						</a>
+
+						<div class="footer__menu">
+
+							<nav class="footer__nav">
+								<ul class="footer__list">
+									<li class="footer__item"><a href="home.html" class="footer__link">Home</a>
+									</li>
+									<li class="footer__item"><a href="home.html#mainpage-works" class="footer__link">About</a>
+									</li>
+									<li class="footer__item"><a href="zoos.html" class="footer__link">Zoos</a>
+									</li>
+									<li class="footer__item"><a data-goto=".mainpage-map" href="" class="footer__link">Map</a>
+									</li>
+								</ul>
+							</nav>
+
+							<div data-da=".footer__body, 1200" class="footer__btn-wrapper">
+								<a data-popup="#popup" class="footer__btn mainpage-link" href="">donate</a>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="footer__block">
+
+						<div class="footer__form">
+
+							<div class="footer__information">
+								<a href="home.html#mainpage-pets" class="footer__link">Pets</a>
+							</div>
+
+							<form data-dev data-popup-message="#formMessage" method="POST" action="#" class="footer__form mainpage-form">
+
+								<input data-required data-validate class="mainpage-form__input input input-name" autocomplete="off" type="text" name="form[]" placeholder="Name">
+
+								<input data-required="email" data-validate class="mainpage-form__input input input-email" autocomplete="off" type="email" name="form[]" placeholder="E-mail">
+
+								<div class="mainpage-form__textarea textarea">
+									<label class="textarea__label" for="a-1">Please enter your message</label>
+									<textarea data-required data-validate data-no-focus-classes autocomplete="off" name="form[]" id="a-1" placeholder="" class="textarea__input"></textarea>
+								</div>
+
+								<div class="mainpage-form__checkbox checkbox">
+									<input data-required data-validate data-no-focus-classes id="b-1" class="checkbox__input" type="checkbox" name="form[]">
+									<label for="b-1" class="checkbox__label"><span class="checkbox__text">I agree to the processing of
+											Personal Data</span></label>
+								</div>
+
+								<div class="mainpage-form__button-wrapper">
+									<button type="submit" class="mainpage-form__button">
+										<span class="mainpage-form__text">send</span>
+										<span class="mainpage-form__arrow-wrapper">
+											<span class="mainpage-form__arrow"></span>
+										</span>
+									</button>
+								</div>
+
+							</form>
+
+						</div>
+
+						<div class="footer__info">
+
+							<div class="footer__body">
+
+								<a href="" class="footer__ref">ZOO Online Centre</a>
+
+								<div class="footer__main">
+									<div class="footer__column">
+										<p class="footer__text">132, Address District, Street</p>
+										<p class="footer__text">Open Daily 10:00 am - 5:00 pm</p>
+									</div>
+									<div class="footer__column">
+										<a class="footer__tel" href="tel:7021633433">T(702) 163-3433</a>
+										<a class="footer__mail" href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+									</div>
+								</div>
+
+								<div class="footer__icons mainpage-icons">
+									<a aria-label="Инстаграм" href="" class="mainpage-icons__link _icon-instagram"></a>
+									<a aria-label="Твиттер" href="" class="mainpage-icons__link _icon-twitter"></a>
+									<a aria-label="Ютуб" href="" class="mainpage-icons__link _icon-youtube"></a>
+									<a aria-label="Вконтакте" href="" class="mainpage-icons__link _icon-vk"></a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+
+				<div class="popup__close-wrapper">
+					<button data-close type="button" class="popup__close">&times;</button>
+				</div>
+
+				<div class="popup__body">
+
+					<div class="popup__image"></div>
+
+					<div class="popup__main">
+						<h2 class="popup__title">Donate for your animal</h2>
+
+						<form data-dev method="POST" action="#" class="popup__form popup-form">
+
+							<div class="popup-form__content">
+
+								<div class="popup-form__row">
+
+									<div class="popup-form__column">
+										<label for="c-1" class="popup-form__label">Сhoose an animal</label>
+										<select id="c-1" name="form[]" class="popup-form__select">
+											<option value="1" selected>Panda</option>
+											<option value="2">Eagle</option>
+											<option value="3">Tiger</option>
+										</select>
+									</div>
+
+									<p class="popup-form__title">About you</p>
+
+									<div class="popup-form__column">
+										<label for="d-1" class="popup-form__label">Name</label>
+										<input id="d-1" data-required data-validate class="popup-form__input input input_color input-name" autocomplete="off" type="text" name="form[]">
+									</div>
+
+									<div class="popup-form__column">
+										<label for="e-1" class="popup-form__label">Email</label>
+										<input id="e-1" data-required="email" data-validate class="popup-form__input input input_color" autocomplete="off" type="email" name="form[]">
+									</div>
+
+									<div class="popup-form__column">
+										<label for="f-1" class="popup-form__label">Phone</label>
+										<div class="popup-form__tel">
+
+											<div class="popup-form__select-wrapper">
+												<select name="form[]" class="popup-form__select">
+													<option value="1" selected>+7</option>
+													<option value="2">08</option>
+													<option value="3">09</option>
+												</select>
+											</div>
+
+											<input id="f-1" data-required data-no-validate minlength="10" class="popup-form__input input input_color input-tel" autocomplete="off" type="text" name="form[]">
+
+										</div>
+									</div>
+
+								</div>
+
+								<div class="popup-form__row">
+
+									<div class="popup-form__column">
+										<label for="g-1" class="popup-form__label">To donate</label>
+										<input id="g-1" data-required data-validate class="popup-form__input input input_color input-donate" autocomplete="off" type="text" name="form[]">
+									</div>
+
+									<p class="popup-form__title">Checkout</p>
+
+									<div class="popup-form__column">
+										<label for="h-1" class="popup-form__label">Card number</label>
+										<input id="h-1" data-required data-no-validate minlength="16" class="popup-form__input input input_color input-card" autocomplete="off" type="text" name="form[]">
+									</div>
+
+									<div class="popup-form__column">
+										<label for="i-1" class="popup-form__label">Expiry date</label>
+										<input id="i-1" autocomplete="off" type="text" name="form[]" data-required data-no-validate data-calendar class="popup-form__input input input_color">
+									</div>
+
+									<div class="popup-form__column">
+										<label for="j-1" class="popup-form__label">CVC</label>
+										<input id="j-1" data-required data-no-validate minlength="3" class="popup-form__input input input_color input-cvc" autocomplete="off" type="text" name="form[]">
+									</div>
+								</div>
+
+							</div>
+
+							<div class="popup-form__block">
+								<p class="popup-form__txt">If don’t cancel your subscription before the trial ends on April 15,
+									2021,
+									you agree that you will automatically be charged</p>
+								<button type="submit" class="popup-form__btn mainpage-link">donate</button>
+							</div>
+
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<script src="js/app.min.js?_v=20240207123227"></script>
+</body>
+
+</html>
