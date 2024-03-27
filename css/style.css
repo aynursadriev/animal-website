@@ -3063,37 +3063,24 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 
-.video-placeholder__img-ibg::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 4.25rem;
-  height: 3rem;
-  background-color: #ff0002;
-  -webkit-transition: all 0.05s ease 0s;
-  transition: all 0.05s ease 0s;
-  border-radius: 0.625rem;
-  z-index: 10;
+.video-placeholder__img-ibg:hover svg path:first-child {
+  fill: #000;
 }
 
-.video-placeholder__img-ibg::after {
-  content: "";
+.video-placeholder__img-ibg svg {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0.625rem 0 0.625rem 1.125rem;
-  border-color: transparent transparent transparent #fff;
   z-index: 10;
+  width: 4.25rem;
+}
+
+.video-placeholder__img-ibg svg path {
+  -webkit-transition: fill 0.1s ease;
+  transition: fill 0.1s ease;
 }
 
 .tippy-box[data-animation=fade][data-state=hidden] {
